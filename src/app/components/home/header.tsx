@@ -71,14 +71,14 @@ export default function Header() {
             colors="green"
             text="Abrir minha conta"
             onClick={() =>
-              router.push("https://mfe-auth-post-tech.vercel.app/register")
+              router.push(`${process.env.NEXT_PUBLIC_MF_URL_CORE}/register`)
             }
           />
           <Button
             colors="outline"
             text="Já tenho conta"
             onClick={() =>
-              router.push("https://mfe-auth-post-tech.vercel.app/")
+              router.push(`${process.env.NEXT_PUBLIC_MF_URL_CORE}/login`)
             }
           />
         </div>
