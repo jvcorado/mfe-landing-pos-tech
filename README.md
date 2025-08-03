@@ -232,13 +232,6 @@ npm run build
 vercel --prod
 ```
 
-### Variáveis de Ambiente
-```env
-NEXT_PUBLIC_SITE_URL=https://bytebank.com
-NEXT_PUBLIC_API_URL=https://api.bytebank.com
-NEXT_PUBLIC_ANALYTICS_ID=GA_TRACKING_ID
-```
-
 ## 📈 Analytics
 
 ### Google Analytics
