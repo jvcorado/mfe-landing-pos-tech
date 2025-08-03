@@ -13,6 +13,12 @@ O MFE Landing é a página de apresentação do ByteBank, oferecendo uma experi�
 - **Navegação**: Direcionar para login/registro
 - **Branding**: Fortalecer a identidade visual da marca
 
+
+### ENV
+```
+NEXT_PUBLIC_MF_URL_CORE = "http://localhost:3000"
+```
+
 ### Estrutura de Pastas
 ```
 src/
